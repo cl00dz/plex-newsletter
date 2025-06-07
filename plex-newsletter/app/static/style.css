@@ -1,0 +1,30 @@
+body {
+  background-color: #1e1e2f;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2em;
+}
+input, button {
+  background: #2a2a40;
+  border: none;
+  color: #fff;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border-radius: 5px;
+  width: 100%;
+}
+button:hover {
+  background: #444;
+}
+label {
+  margin-top: 1em;
+  display: block;
+}
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+.msg.success { color: #8f8; }
+.msg.error { color: #f88; }
+
+}
